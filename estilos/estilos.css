@@ -1,0 +1,126 @@
+body{background-image:linear-gradient(to left,white,#dc1449);
+}
+/* titulo */
+h1{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+    text-transform: capitalize;
+    text-shadow: 1px 4px white;
+    background-image: linear-gradient(to left,white,#dc1449);
+    margin: auto;
+    padding: 5px;
+}
+/* barra de navegaciones */
+.nav {display: flex;
+justify-content: space-around;
+background-color: #dc1449;
+width: 100%;
+padding: 0;
+margin: 0
+;
+
+}
+.nav a{color: antiquewhite;
+font-size: 30px;
+}
+.nav a:hover {
+    background-color: black;
+    color: purple;
+    animation-name: barra;
+    animation-iteration-count: 1;
+    animation-duration: 2s
+    /* carousel */
+}
+.carousel-item img {height: 400px;
+width: 100%;
+height: 500px
+;}
+
+ h5 {color: black;
+font-size: 45px;
+font-family: Georgia, 'Times New Roman', Times, serif;}
+/* horarios */
+.formulario {width: 80%;
+height: 300px;}
+
+.text-center {background-color: #dc1449;
+font-size: 50px;
+text-transform: capitalize;
+padding: 10px;
+}
+form {background-image:linear-gradient(to left,white,#dc1449) ;
+    padding: 15px;;}
+    form.row.g-3.needs-validation{
+        margin: 0;
+    }
+    .nav.nav-justified {padding: 50px;}
+
+
+
+
+/* nosotros.html *//* nosotros.html *//* nosotros.html *//* nosotros.html *//* nosotros.html *//* nosotros.html *//* nosotros.html *//* nosotros.html *//* nosotros.html *//* nosotros.html */
+.listasimg {background-color: #dc1449ad;
+text-transform: capitalize;
+}
+.h5n {background-color: #dc1449;
+margin: auto;}
+h2 {text-align: center;
+background-color: #dc1449;
+padding: 15px;}
+.ubi {text-align: center;
+text-shadow: 1px 1px;}
+.subt {margin-left: 50px;
+font-size: 40px;
+text-shadow: 0px 0px;
+font-family: fantasy;
+background-color: #dc1449;
+color: aliceblue;}
+/* mq *//* mq *//* mq *//* mq *//* mq *//* mq *//* mq */
+@media screen and (max-width:450px){
+    h1 {font-size: 40px;
+        display: flex;
+    justify-content: center;}
+}
+/* servicios *//* servicios *//* servicios *//* servicios *//* servicios *//* servicios *//* servicios *//* servicios */
+.col {
+    height: 250px;
+border: solid 8px white;
+
+}
+.columnaservicios {padding: 5px;
+margin: auto;
+;}
+.col{background-size: cover;
+;}
+.item1 {background-image: url(/imagenes/diseño\ manos.jpg) ;
+;}
+.item2 {background-image: url(/imagenes/peluqueria\ grid.jpg);}
+.item3{background-image: url(/imagenes/depilacion.jpg);}
+.item4{background-image: url(/imagenes/diseño\ manos.jpg);}
+.item5{background-image: url(/imagenes/maasje\ spa.jpg) ;}
+.item6{background-image: url(/imagenes/pestañas.jpg);}
+.item7 {background-image: url(/imagenes/ondas\ de\ choque.jpg);}
+.item8{background-image: url(/imagenes/tintura\ grid.jpg);
+background-position: center;}
+.item9{background-image: url(/imagenes/limpieza\ facial.jpg);}
+.item10 {background-image: url(/imagenes/masajes.jpg);}
+.item11 {background-image: url(/imagenes/peinados\ fiesta.jpg);}
+.item12 {background-image: url(/imagenes/maquillaje\ profecional.jpg);}
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.titimg {
+    text-shadow:1px 1px whitesmoke ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    background-color: #dc1449;
+}
+.col:hover {transform: scale(1.3);
+transition: 0.95s ;}
+.nav a:hover {transform: scale(1.3);
+    transition: 0.95s}
+    .carousel-inner {padding: 10px;}
